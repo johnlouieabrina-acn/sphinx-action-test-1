@@ -19,7 +19,7 @@ jobs:
     # Example of using a custom build-command.
     - uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: "sphinx-apidoc -o docs ../source"
+        pre-build-command: "sphinx-apidoc -o docs source"
         build-command: "sphinx-build -b html . _build"
         docs-folder: "docs2/"
     # Grabbing custom dependencies and building as a pdf.
