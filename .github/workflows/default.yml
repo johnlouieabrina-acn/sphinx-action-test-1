@@ -19,7 +19,7 @@ jobs:
     # Example of using a custom build-command.
     - uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: "sudo apt-get install -y sphinx-rtd-theme-common"
+        pre-build-command: "apt install python3-sphinx-rtd-theme"
         build-command: "sphinx-build -b html . _build"
         docs-folder: "docs2/"
     # Grabbing custom dependencies and building as a pdf.
