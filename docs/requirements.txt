@@ -1,5 +1,0 @@
-sphinx>=3.3
-sphinx-autodoc-typehints
-sphinx-argparse
-ipywidgets
-nbsphinx
