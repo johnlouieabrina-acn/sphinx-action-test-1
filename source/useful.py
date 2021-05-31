@@ -1,4 +1,4 @@
-"""TEST
+"""TEST More
 .. module:: useful_1
    :platform: Unix, Windows
    :synopsis: A useful module indeed.
