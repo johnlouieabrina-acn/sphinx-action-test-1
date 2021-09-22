@@ -111,28 +111,31 @@
 
 <dl class="py function">
 <dt class="sig sig-object py" id="useful.function_with_pep484_type_annotations">
-<span class="sig-prename descclassname"><span class="pre">useful.</span></span><span class="sig-name descname"><span class="pre">function_with_pep484_type_annotations</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param1</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">param2</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="reference internal" href="_modules/useful.html#function_with_pep484_type_annotations"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#useful.function_with_pep484_type_annotations" title="Permalink to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">useful.</span></span><span class="sig-name descname"><span class="pre">function_with_pep484_type_annotations</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">param1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">param2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/useful.html#function_with_pep484_type_annotations"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#useful.function_with_pep484_type_annotations" title="Permalink to this definition"></a></dt>
 <dd><p>Example function with PEP 484 type annotations.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>param1</strong> – The first parameter.</p></li>
-<li><p><strong>param2</strong> – The second parameter.</p></li>
+<li><p><strong>param1</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code>) – The first parameter.</p></li>
+<li><p><strong>param2</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – The second parameter.</p></li>
 </ul>
 </dd>
-<dt class="field-even">Returns</dt>
-<dd class="field-even"><p>The return value. True for success, False otherwise.</p>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">bool</span></code></p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>The return value. True for success, False otherwise.</p>
 </dd>
 </dl>
 </dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="useful.public_fn_with_googley_docstring">
-<span class="sig-prename descclassname"><span class="pre">useful.</span></span><span class="sig-name descname"><span class="pre">public_fn_with_googley_docstring</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">state</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">bool</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">int</span></span></span><a class="reference internal" href="_modules/useful.html#public_fn_with_googley_docstring"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#useful.public_fn_with_googley_docstring" title="Permalink to this definition"></a></dt>
+<span class="sig-prename descclassname"><span class="pre">useful.</span></span><span class="sig-name descname"><span class="pre">public_fn_with_googley_docstring</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">state</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/useful.html#public_fn_with_googley_docstring"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#useful.public_fn_with_googley_docstring" title="Permalink to this definition"></a></dt>
 <dd><p>TEST This function does something.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>name</strong> – The name to use.</p>
+<dd class="field-odd"><p><strong>name</strong> (<code class="xref py py-class docutils literal notranslate"><span class="pre">str</span></code>) – The name to use.</p>
 </dd>
 </dl>
 <dl class="simple">
@@ -140,8 +143,11 @@
 </dd>
 </dl>
 <dl class="field-list simple">
-<dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><p>int.  The return code:</p>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><code class="xref py py-class docutils literal notranslate"><span class="pre">int</span></code></p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><p>int.  The return code:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>0 -- Success!
 1 -- No good.
 2 -- Try again.
@@ -149,8 +155,8 @@
 </div>
 </p>
 </dd>
-<dt class="field-even">Raises</dt>
-<dd class="field-even"><p><strong>AttributeError</strong><strong>, </strong><strong>KeyError</strong> – </p>
+<dt class="field-odd">Raises</dt>
+<dd class="field-odd"><p><strong>AttributeError</strong><strong>, </strong><strong>KeyError</strong> – </p>
 </dd>
 </dl>
 <p>A really great idea.  A way you might use me is</p>
