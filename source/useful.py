@@ -8,11 +8,11 @@
 
 """
 
-def public_fn_with_googley_docstring(name, state=None):
+def public_fn_with_googley_docstring(name: str, state=None):
     """TEST This function does something.
 
     Args:
-       name (str):  The name to use.
+       name:  The name to use.
 
     Kwargs:
        state (bool): Current state to be in.
