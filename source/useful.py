@@ -8,7 +8,7 @@
 
 """
 
-def public_fn_with_googley_docstring(name: str, state=None):
+def public_fn_with_googley_docstring(name: str, state: bool = None) -> int:
     """TEST This function does something.
 
     Args:
