@@ -44,7 +44,6 @@ extensions = [
     'sphinx_rtd_theme'
 ]
 
-autodoc-process-signature(app, what, name, obj, options, signature, return_annotation)
 # Napoleon settings
 napoleon_google_docstring = True
 napoleon_numpy_docstring = False
