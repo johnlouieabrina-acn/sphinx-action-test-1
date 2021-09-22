@@ -15,7 +15,7 @@ def public_fn_with_googley_docstring(name: str, state: bool = None) -> int:
        name:  The name to use.
 
     Kwargs:
-       state (bool): Current state to be in.
+       state: Current state to be in.
 
     Returns:
        int.  The return code::
