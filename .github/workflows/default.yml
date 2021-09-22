@@ -13,6 +13,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     # Standard drop-in approach that should work for most people.
+    - name: Install dependencies
+      run: |
+        pip install sphinx-autodoc-typehints
     - uses: ammaraskar/sphinx-action@0.4
       with:
         pre-build-command: "sphinx-apidoc -f -o docs source"
