@@ -7,6 +7,29 @@
 
 
 """
+from typing import Dict, Union
+
+
+def get_person(person: Dict[str, Union[str, int]]) -> Dict[str, Union[str, int]]:
+    """This will be the summary of the function.
+
+    Args:
+        person: description of the argument.
+            first_name (str) - A name given to a person at birth.
+            last_name (str) - A define family name.
+            age (int) - Number of years person has lived.
+
+    Return:
+        result: description of the argument
+            first_name (str) - A name given to a person at birth.
+            last_name (str) - A define family name.
+            age (int) - Number of years person has lived.
+    """
+    return person
+
+
+person1 = {"first_name": "Juan", "last_name": "Carlos", "age": "16"}
+print(get_person(person1))
 
 
 def function_with_pep484_type_annotations(param1: int, param2: str) -> bool:
