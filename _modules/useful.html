@@ -73,6 +73,29 @@
 
 
 <span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Union</span>
+
+
+<div class="viewcode-block" id="get_person"><a class="viewcode-back" href="../useful.html#useful.get_person">[docs]</a><span class="k">def</span> <span class="nf">get_person</span><span class="p">(</span><span class="n">person</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]])</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">Union</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">int</span><span class="p">]]:</span>
+    <span class="sd">&quot;&quot;&quot;This will be the summary of the function.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        person: description of the argument.</span>
+<span class="sd">            first_name (str) - A name given to a person at birth.</span>
+<span class="sd">            last_name (str) - A define family name.</span>
+<span class="sd">            age (int) - Number of years person has lived.</span>
+
+<span class="sd">    Return:</span>
+<span class="sd">        result: description of the argument</span>
+<span class="sd">            first_name (str) - A name given to a person at birth.</span>
+<span class="sd">            last_name (str) - A define family name.</span>
+<span class="sd">            age (int) - Number of years person has lived.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">person</span></div>
+
+
+<span class="n">person1</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;first_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Juan&quot;</span><span class="p">,</span> <span class="s2">&quot;last_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Carlos&quot;</span><span class="p">,</span> <span class="s2">&quot;age&quot;</span><span class="p">:</span> <span class="s2">&quot;16&quot;</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">get_person</span><span class="p">(</span><span class="n">person1</span><span class="p">))</span>
 
 
 <div class="viewcode-block" id="function_with_pep484_type_annotations"><a class="viewcode-back" href="../useful.html#useful.function_with_pep484_type_annotations">[docs]</a><span class="k">def</span> <span class="nf">function_with_pep484_type_annotations</span><span class="p">(</span><span class="n">param1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">param2</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
